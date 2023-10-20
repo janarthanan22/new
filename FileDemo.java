@@ -13,6 +13,7 @@ public class FileDemo {
 		int temp=0;
 		while((temp=b.read())!=-1) {
 			System.out.print((char)(temp));
+			System.out.println("changed");
 		}
 	}
 
